@@ -7,7 +7,7 @@
 <title>
     Hello 2021 | Shameless2CC
 </title>
-<link rel="shortcut icon" href="https://shameless2cc.github.io/favicon.ico?v=1609486310746">
+<link rel="shortcut icon" href="https://shameless2cc.github.io/favicon.ico?v=1609486669309">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -28,7 +28,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://shameless2cc.github.io">
-                <img class="avatar" src="https://shameless2cc.github.io/images/avatar.png?v=1609486310746" alt="">
+                <img class="avatar" src="https://shameless2cc.github.io/images/avatar.png?v=1609486669309" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -107,8 +107,8 @@
                         </div>
                         
                                 <div class="post-content">
-                                    <p>Happy New Year !<br>
-<img src="https://shameless2cc.github.io/post-images/1609486299051.jpg" alt="" loading="lazy"></p>
+                                    <h2 id="happy-new-year">Happy New Year !</h2>
+<figure data-type="image" tabindex="1"><img src="https://shameless2cc.github.io/post-images/1609486299051.jpg" alt="2021" loading="lazy"></figure>
 
                                 </div>
                     </article>
@@ -122,35 +122,46 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://shameless2cc.github.io/images/avatar.png?v=1609486310746)">
-        </div>
-        <h1 class="id_card-title">
-            Shameless2CC
-        </h1>
-        <h2 class="id_card-description">
-            那时候还太年轻，不知道所以命运赠送的礼物，早已暗中标好了价格。
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                <a href="https://github.com/shameless2cc" target="_blank" rel="noopener noreferrer"><i
-                class="fa fa-github"></i></a>
-                
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#happy-new-year">Happy New Year !</a></li>
+</ul>
+</li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
