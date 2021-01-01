@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shameless2cc.github.io</id>
-    <title>Shameless2cc</title>
-    <updated>2021-01-01T07:05:43.798Z</updated>
+    <title>Shameless2CC</title>
+    <updated>2021-01-01T07:16:15.331Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shameless2cc.github.io"/>
     <link rel="self" href="https://shameless2cc.github.io/atom.xml"/>
     <subtitle>那时候还太年轻，不知道所以命运赠送的礼物，早已暗中标好了价格。</subtitle>
     <logo>https://shameless2cc.github.io/images/avatar.png</logo>
     <icon>https://shameless2cc.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Shameless2cc</rights>
+    <rights>All rights reserved 2021, Shameless2CC</rights>
     <entry>
         <title type="html"><![CDATA[Hello 2021]]></title>
         <id>https://shameless2cc.github.io/post/hello-2021/</id>
