@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://shameless-top.github.io</id>
-    <title>Shameless</title>
-    <updated>2021-01-01T05:04:51.828Z</updated>
+    <id>https://shameless2cc.github.io</id>
+    <title>Shameless2cc</title>
+    <updated>2021-01-01T06:54:40.897Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://shameless-top.github.io"/>
-    <link rel="self" href="https://shameless-top.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://shameless-top.github.io/images/avatar.png</logo>
-    <icon>https://shameless-top.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Shameless</rights>
+    <link rel="alternate" href="https://shameless2cc.github.io"/>
+    <link rel="self" href="https://shameless2cc.github.io/atom.xml"/>
+    <subtitle>那时候还太年轻，不知道所以命运赠送的礼物，早已暗中标好了价格。</subtitle>
+    <logo>https://shameless2cc.github.io/images/avatar.png</logo>
+    <icon>https://shameless2cc.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, Shameless2cc</rights>
+    <entry>
+        <title type="html"><![CDATA[Hello 2021]]></title>
+        <id>https://shameless2cc.github.io/post/hello-2021/</id>
+        <link href="https://shameless2cc.github.io/post/hello-2021/">
+        </link>
+        <updated>2021-01-01T05:04:02.000Z</updated>
+        <content type="html"><![CDATA[<p>Happy New Year !</p>
+]]></content>
+    </entry>
 </feed>
