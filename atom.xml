@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shameless2cc.github.io</id>
     <title>Shameless2CC</title>
-    <updated>2021-01-03T04:38:50.734Z</updated>
+    <updated>2021-01-03T04:43:50.301Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shameless2cc.github.io"/>
     <link rel="self" href="https://shameless2cc.github.io/atom.xml"/>
-    <subtitle>那时候还太年轻，不知道所以命运赠送的礼物，早已暗中标好了价格。</subtitle>
+    <subtitle>那时候还太年轻，不知道所有命运赠送的礼物，早已在暗中标好了价格。</subtitle>
     <logo>https://shameless2cc.github.io/images/avatar.png</logo>
     <icon>https://shameless2cc.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Shameless2CC</rights>
